@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://bankpi4hwsxmn"]
+
+[sub_resource type="Environment" id="Environment_g4v7s"]
+background_mode = 1
+
+[node name="Disclaimer" type="Control" unique_id=1531356926]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=2030057317]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -502.0
+offset_top = -145.5
+offset_right = 502.0
+offset_bottom = 183.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 26
+bbcode_enabled = true
+text = "\"PROJECT LUMINANCE\" is a freelance game made out of a labor of love for a particular individual, and should not be sold or otherwise be associated with monetary gain in any way, shape, or form.
+
+All copyrighted works belong to their respective owners. NO COLLABORATION IS OFFICIALLY ENDORSED BY ANYONE. PROJECT CONVERGENCE spearheaded by ShinySkink9185, with no copyright. THE BAD GUYS owned by DreamWorks. HAZBIN HOTEL created by Vivienne Medrano. SONIC THE HEDGEHOG owned by SEGA and Sonic Team. THE OWL HOUSE created by Dana Terrace."
+scroll_active = false
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1897409953]
+environment = SubResource("Environment_g4v7s")
